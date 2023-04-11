@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center; font-size: 3rem">Calculator</h1>
+      <section id="calculator">
+        <!-- <div id="output-div"><span id="output">Hello </span></div> -->
+        <div class="row" style="width: 400px">
+          <div>
+            <button id="ac" style="height: 60px; font-size: 1.6rem">AC</button>
+          </div>
+          <div id="output-div" style="position: relative; overflow-x: auto">
+            <div style="position: absolute; right: 1rem; bottom: 0.7rem">
+              <span id="output">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="inline-div">
+          <div class="column" style="width: 300px">
+            <div class="row top">
+              <div><button id="sqrt">√</button></div>
+              <div><button id="sign">+/-</button></div>
+              <div><button id="mod">%</button></div>
+            </div>
+            <div class="row">
+              <div><button class="numbers" value="7">7</button></div>
+              <div><button class="numbers" value="8">8</button></div>
+              <div><button class="numbers" value="9">9</button></div>
+            </div>
+            <div class="row">
+              <div><button class="numbers" value="4">4</button></div>
+              <div><button class="numbers" value="5">5</button></div>
+              <div><button class="numbers" value="6">6</button></div>
+            </div>
+            <div class="row">
+              <div><button class="numbers" value="1">1</button></div>
+              <div><button class="numbers" value="2">2</button></div>
+              <div><button class="numbers" value="3">3</button></div>
+            </div>
+            <div class="row">
+              <div><button class="numbers" value="0" id="zero">0</button></div>
+              <div><button id="dot">.</button></div>
+            </div>
+          </div>
+          <div class="column orange">
+            <div><button id="div">/</button></div>
+            <div><button id="mul">*</button></div>
+            <div><button id="sub">-</button></div>
+            <div><button id="add">+</button></div>
+            <div><button id="calc">=</button></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
